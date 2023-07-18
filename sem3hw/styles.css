@@ -12,4 +12,25 @@ nav {
     background-color: antiquewhite; /* это чтобы можно было лучше видит блоки. */
     margin: 10px;
     padding: 10px 40px;
+    justify-content: space-around;
+}
+
+.startbtns {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.offer {
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.sponsors {
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
 }
