@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav, header, .sponsors {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    background-color: antiquewhite; /* это чтобы можно было лучше видит блоки. */
+    margin: 10px;
+    padding: 10px 40px;
+}
