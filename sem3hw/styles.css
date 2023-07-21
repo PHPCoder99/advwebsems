@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    padding: 0 10%;
+}
+
 nav, header, .sponsors {
     display: flex;
     flex-direction: row;
@@ -27,6 +31,8 @@ nav {
     background-color: burlywood;
     padding: 20px;
     margin: 10px;
+    width: 50%;
+    margin: 10px;
 }
 
 .sponsors {
@@ -35,6 +41,11 @@ nav {
     margin: 10px;
     background-color: aliceblue;
 }
+
+header img {
+    width: 50%;
+}
+
 
 .active {
     color: #d03e16;
