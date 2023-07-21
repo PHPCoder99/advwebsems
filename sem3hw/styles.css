@@ -26,6 +26,7 @@ nav {
 .offer {
     background-color: burlywood;
     padding: 20px;
+    margin: 10px;
 }
 
 .sponsors {
@@ -33,4 +34,15 @@ nav {
     padding: 10px;
     margin: 10px;
     background-color: aliceblue;
+}
+
+.active {
+    color: #d03e16;
+}
+
+.btn-primary {
+    background-color: #d03e16;
+    padding: 5px 7px;
+    border-radius: 50%;
+    color: white;
 }
