@@ -57,3 +57,27 @@ header img {
     border-radius: 50%;
     color: white;
 }
+
+.grid3 {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.result {
+    padding: 10px;
+}
+
+.padvert20 {
+    padding: 20px 0;
+}
+
+.flexbox-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    padding: 15px 30px 20px;
+}
