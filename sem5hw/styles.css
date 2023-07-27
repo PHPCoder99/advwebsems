@@ -5,7 +5,7 @@
 
 .pad-around {
     padding: 20px 10%;
-    margin: 25px;
+    margin: 25px 0;
 }
 
 nav {
@@ -38,6 +38,8 @@ header {
     align-items: center;
     justify-content: center;
     margin: 0 10px;
+    background-color: black;
+    color: white;
 }
 
 .fat-promo {
@@ -47,6 +49,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 .items-grid {
