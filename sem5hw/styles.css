@@ -39,6 +39,7 @@ header {
     justify-content: center;
     background-color: black;
     color: white;
+    margin-bottom: 20px;
 }
 
 .for-women {
@@ -68,6 +69,7 @@ header {
     display: grid;
     grid-template-columns: 33fr 33fr 33fr;
     grid-template-rows: 50fr 50fr;
+    margin: 20px 0;
 }
 
 .item {
