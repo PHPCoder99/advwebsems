@@ -4,7 +4,8 @@
 }
 
 .pad-around {
-    padding: 10px 10%;
+    padding: 20px 10%;
+    margin: 25px;
 }
 
 nav {
@@ -32,11 +33,20 @@ header {
 
 .for-women, .for-men, .for-kids {
     height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
 }
 
 .fat-promo {
     width: 100fr;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .items-grid {
