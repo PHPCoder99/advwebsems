@@ -37,9 +37,20 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
     background-color: black;
     color: white;
+}
+
+.for-women {
+    margin-right: 10px;
+}
+
+.for-kids {
+    margin-left: 10px;
+}
+
+.for-men {
+    margin: 0 10px;
 }
 
 .fat-promo {
@@ -81,6 +92,7 @@ header {
     border: 2px solid #f16D7f;
     border-radius: 5px;
     color: #f16D7f;
+    padding: 10px 20px;
 }
 
 .featured-items {
