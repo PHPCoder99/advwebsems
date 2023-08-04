@@ -116,11 +116,25 @@ header {
         margin: 10px 0;
     }
 
-    
     header {
         display: grid;
         grid-template-columns: 50fr 50fr;
         background-color: #F1E4E6;
         height: 33vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .items-grid {
+        display: grid;
+        grid-template-columns: 100fr;
+        grid-template-rows: 16fr 17fr 17fr 17fr 17fr 16fr;
+        margin: 10px 0;
+    }
+
+    .hot-deals {
+        display: grid;
+        grid-template-columns: 100fr;
+        grid-template-rows: 33fr 33fr 33fr;
     }
 }
