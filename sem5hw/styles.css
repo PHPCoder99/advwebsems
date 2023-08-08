@@ -97,6 +97,18 @@ header {
     padding: 10px 20px;
 }
 
+.btn-primary {
+    background-color: #f16D7f;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 0;
+}
+
+input {
+    margin-right: 0;
+}
+
 .featured-items {
     display: flex;
     flex-direction: column;
@@ -106,6 +118,20 @@ header {
 .subscribe {
     display: grid;
     grid-template-columns: 50fr 50fr;
+}
+
+.subscribe div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.benefits {
+    background-color: black;
+    color: white;
+}
+
+.benefit {
+    padding: 10px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -135,6 +161,13 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+    header {
+        display: grid;
+        grid-template-columns: 50fr 50fr;
+        background-color: #F1E4E6;
+        height: 33vh;
+    }
+
     .items-grid {
         display: grid;
         grid-template-columns: 100fr;
