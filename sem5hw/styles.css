@@ -8,9 +8,10 @@
     margin: 25px 0;
 }
 
-nav {
+nav, footer {
     display: flex;
     justify-content: space-between;
+    background-color: black;
 }
 
 header {
